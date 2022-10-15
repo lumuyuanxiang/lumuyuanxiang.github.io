@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>hexo博客yilia所有文章缺失</title>
+      <link href="/2022/10/15/hexo%E5%8D%9A%E5%AE%A2yilia%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0%E7%BC%BA%E5%A4%B1/"/>
+      <url>/2022/10/15/hexo%E5%8D%9A%E5%AE%A2yilia%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0%E7%BC%BA%E5%A4%B1/</url>
+      
+        <content type="html"><![CDATA[<h1 id="算是解决办法？-待定-作用在hexo不报错但模块仍然缺失的情况下"><a href="#算是解决办法？-待定-作用在hexo不报错但模块仍然缺失的情况下" class="headerlink" title="算是解决办法？(待定)(作用在hexo不报错但模块仍然缺失的情况下)"></a>算是解决办法？(待定)(作用在hexo不报错但模块仍然缺失的情况下)</h1><p>在修改博客文章的时候不知道删了什么或者是修改了什么导致所有文章模块缺失，如下图</p><p>[报错图]<br>(<a href="https://img-blog.csdnimg.cn/img_convert/be5531bca80d972de5ae21476e4c3897.png">https://img-blog.csdnimg.cn/img_convert/be5531bca80d972de5ae21476e4c3897.png</a>)</p><p>根据市面上搜索的各种 npm install,npm i hexo-generator-json-content –save,npm install <a href="mailto:&#x68;&#x65;&#x78;&#111;&#45;&#x67;&#101;&#x6e;&#x65;&#x72;&#97;&#116;&#x6f;&#114;&#x2d;&#x6a;&#115;&#111;&#x6e;&#x2d;&#99;&#x6f;&#x6e;&#x74;&#x65;&#110;&#x74;&#x40;&#x34;&#x2e;&#50;&#x2e;&#51;">&#x68;&#x65;&#x78;&#111;&#45;&#x67;&#101;&#x6e;&#x65;&#x72;&#97;&#116;&#x6f;&#114;&#x2d;&#x6a;&#115;&#111;&#x6e;&#x2d;&#99;&#x6f;&#x6e;&#x74;&#x65;&#110;&#x74;&#x40;&#x34;&#x2e;&#50;&#x2e;&#51;</a>各种npm后hexo倒是不报错了，但打开后模块仍然显示缺失</p><p>于是又各种尝试修改hexo根目录下的_config.yml文件，但仍然不行，hexo不报错但模块仍然缺失，最后没办法试着修改yilia里的_config.yml文件，在文件后面添加报错图中的(3.在根目录_config.yml里添加如下配置的内容)后居然好了，但修改完毕再次打开的时候我又试着把它删了却不报错，所以说这到底是什么玩意导致的模块缺失(骂骂咧咧)。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>前端面试题（应届、初级）更精确的答案和面试题可联系我讨论修改</title>
+      <link href="/2022/10/15/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%88%E5%BA%94%E5%B1%8A%E3%80%81%E5%88%9D%E7%BA%A7%EF%BC%89/"/>
+      <url>/2022/10/15/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%88%E5%BA%94%E5%B1%8A%E3%80%81%E5%88%9D%E7%BA%A7%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<h1 id="jquery-和-javascript-的关系是什么"><a href="#jquery-和-javascript-的关系是什么" class="headerlink" title="jquery 和 javascript 的关系是什么"></a>jquery 和 javascript 的关系是什么</h1><p>JavaScript 是一种脚本语言，而 jquery 是一个 JavaScript 函数库，是 JavaScript 函数的集合；jquery 基于 JavaScript 语言，封装 JavaScript 的原生方法，提供了简便的函数接口，简化了 JS 的操作。</p><h1 id="uni-app-和-vue-的关系，区别是什么"><a href="#uni-app-和-vue-的关系，区别是什么" class="headerlink" title="uni-app 和 vue 的关系，区别是什么"></a>uni-app 和 vue 的关系，区别是什么</h1><p>关系：<br>uni-app 是基于 vue 开发的产品<br>区别：<br>1、uni-app 可以编译到（头条，支付宝，微信，QQ，百度）小程序，安卓版，ios 版，h5 版。通过打包实现一套代码多端运行。<br>2、vue 在 web 上是为单页应用而生的，在 app 上，单页应用会卡死。uni-app 还有自动的框架预载，加载页面的速度更快。<br>3、uni 使用小程序的标签，而 vue 使用 web 端的标签。<br>4、uni 不支持 vue-router,使用自带的路由。</p><h1 id="ES6-新特性有哪些？"><a href="#ES6-新特性有哪些？" class="headerlink" title="ES6 新特性有哪些？"></a>ES6 新特性有哪些？</h1><p>let const 的引入<br>(let 声明变量和 const 声明常量，两个都有块级作用域，ES5 中是没有块级作用域的，并且 var 有变量提升，在 let 中，使用的变量一定要进行声明)<br>箭头函数<br>(ES6 中的函数定义不再使用关键字 function()，而是利用了()=&gt;来进行定义)<br>模板字符串<br>(模板字符串是增强版的字符串，用反引号（`）标识，可以当作普通字符串使用，也可以用来定义多行字符串)<br>解构赋值<br>(ES6 允许按照一定模式，从数组和对象中提取值，对变量进行赋值)<br>for of 循环<br>(for…of 循环可以遍历数组、Set 和 Map 结构、某些类似数组的对象、对象，以及字符串)<br>import、export 导入导出<br>(ES6 标准中，Js 原生支持模块(module)。将 JS 代码分割成不同功能的小块进行模块化，将不同功能的代码分别写在不同文件中，各模块只需导出公共接口部分，然后通过模块的导入的方式可以在其他地方使用)<br>set 数据结构<br>(Set 数据结构，类似数组。所有的数据都是唯一的，没有重复的值。它本身是一个构造函数)<br>… 展开运算符<br>(可以将数组或对象里面的值展开；还可以将多个值收集为一个变量)<br>class 类的继承<br>(ES6 中不再像 ES5 一样使用原型链实现继承，而是引入 Class 这个概念)</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>前端面试题(vue)更精确的答案和面试题可联系我讨论修改</title>
+      <link href="/2022/10/15/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%88vue%EF%BC%89/"/>
+      <url>/2022/10/15/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%88vue%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<h1 id="vue-生命周期是什么"><a href="#vue-生命周期是什么" class="headerlink" title="vue 生命周期是什么"></a>vue 生命周期是什么</h1><p>VUE 生命周期是一个 VUE 实例从创建到销毁的一个过程</p><h1 id="VUE-生命周期不同的阶段"><a href="#VUE-生命周期不同的阶段" class="headerlink" title="VUE 生命周期不同的阶段"></a>VUE 生命周期不同的阶段</h1><p>1.创建前/后 beforeCreate/Created 2.载入前/后 beforeMount/Mounted 3.更新前/后 beforeUpdate/Updated 4.销毁前/后 beforeDestroy/Destroyed</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>推小圆和联系方式</title>
+      <link href="/2022/05/17/%E6%8E%A8%E5%B0%8F%E5%9C%86%E5%92%8C%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F/"/>
+      <url>/2022/05/17/%E6%8E%A8%E5%B0%8F%E5%9C%86%E5%92%8C%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F/</url>
+      
+        <content type="html"><![CDATA[<h1 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h1><p>QQ：3307624570</p><p>网易邮箱：<a href="mailto:&#x73;&#105;&#107;&#x6f;&#110;&#103;&#119;&#97;&#110;&#x67;&#121;&#x75;&#x65;&#49;&#54;&#x38;&#64;&#49;&#x36;&#51;&#x2e;&#99;&#x6f;&#x6d;">&#x73;&#105;&#107;&#x6f;&#110;&#103;&#119;&#97;&#110;&#x67;&#121;&#x75;&#x65;&#49;&#54;&#x38;&#64;&#49;&#x36;&#51;&#x2e;&#99;&#x6f;&#x6d;</a>（网易邮箱我不咋用来通信，都是用来注册账号的。）</p><p>WX：18738689730</p><p>手机电话：同上</p><h2 id="我跟你讲小圆敲可爱的"><a href="#我跟你讲小圆敲可爱的" class="headerlink" title="我跟你讲小圆敲可爱的"></a>我跟你讲小圆敲可爱的</h2><p>[萌娘百科(鹿目圆)]<br>(<a href="https://zh.moegirl.org.cn/%E9%B9%BF%E7%9B%AE%E5%9C%86">https://zh.moegirl.org.cn/%E9%B9%BF%E7%9B%AE%E5%9C%86</a>)</p><h2 id="这个是究极圆"><a href="#这个是究极圆" class="headerlink" title="这个是究极圆"></a>这个是究极圆</h2><p>[究极圆前辈]<br>(<a href="https://cdn.mfjl.wiki/a/a6/%E7%A9%B6%E6%A5%B5VS%E8%87%B3%E9%AB%98.png">https://cdn.mfjl.wiki/a/a6/%E7%A9%B6%E6%A5%B5VS%E8%87%B3%E9%AB%98.png</a>)</p><h2 id="这个是黑圆"><a href="#这个是黑圆" class="headerlink" title="这个是黑圆"></a>这个是黑圆</h2><p>[黑圆]</p><p>(<a href="https://i0.hdslb.com/bfs/new_dyn/af6040f9196519274ca1d748a5d8f0c8398727497.jpg@1295w.webp">https://i0.hdslb.com/bfs/new_dyn/af6040f9196519274ca1d748a5d8f0c8398727497.jpg@1295w.webp</a>)</p><hr><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=34338097&auto=0&height=66"></iframe>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
