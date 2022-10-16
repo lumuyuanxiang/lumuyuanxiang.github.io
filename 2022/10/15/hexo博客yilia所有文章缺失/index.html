@@ -44,7 +44,7 @@
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
       
-<div class="overlay" style="background: #4d4d4d"></div>
+<div class="overlay" style="background: #FFB6C1"></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
@@ -60,9 +60,12 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+				<li><a href="/archives">归档</a></li>
 	        
 			</ul>
+		</nav>
+		<nav>
+			<a>总文章数 4</a>
 		</nav>
 		<nav class="header-smart-menu">
     		
@@ -97,7 +100,7 @@
     <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
       
 <nav id="mobile-nav">
-  	<div class="overlay js-overlay" style="background: #4d4d4d"></div>
+  	<div class="overlay js-overlay" style="background: #FFB6C1"></div>
 	<div class="btnctn js-mobile-btnctn">
   		<div class="slider-trigger list" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
 	</div>
@@ -136,7 +139,7 @@
 				
 					<li style="width: 50%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 50%"><a href="/archives">归档</a></li>
 		        
 				</ul>
 			</nav>
@@ -166,6 +169,12 @@
         <a href="/2022/10/15/hexo%E5%8D%9A%E5%AE%A2yilia%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0%E7%BC%BA%E5%A4%B1/" class="archive-article-date">
   	<time datetime="2022-10-15T05:18:08.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-10-15</time>
 </a>
+
+	<!-- 不蒜子统计 -->
+	<span id="busuanzi_container_page_pv" style='display:none' class="archive-article-date">
+				<i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
+	</span>
+
         
       </header>
     
@@ -173,7 +182,7 @@
       
         <h1 id="算是解决办法？-待定-作用在hexo不报错但模块仍然缺失的情况下"><a href="#算是解决办法？-待定-作用在hexo不报错但模块仍然缺失的情况下" class="headerlink" title="算是解决办法？(待定)(作用在hexo不报错但模块仍然缺失的情况下)"></a>算是解决办法？(待定)(作用在hexo不报错但模块仍然缺失的情况下)</h1><p>在修改博客文章的时候不知道删了什么或者是修改了什么导致所有文章模块缺失，如下图</p>
 <p>[报错图]<br>(<a target="_blank" rel="noopener" href="https://img-blog.csdnimg.cn/img_convert/be5531bca80d972de5ae21476e4c3897.png">https://img-blog.csdnimg.cn/img_convert/be5531bca80d972de5ae21476e4c3897.png</a>)</p>
-<p>根据市面上搜索的各种 npm install,npm i hexo-generator-json-content –save,npm install <a href="mailto:&#x68;&#x65;&#x78;&#111;&#45;&#x67;&#101;&#x6e;&#x65;&#x72;&#97;&#116;&#x6f;&#114;&#x2d;&#x6a;&#115;&#111;&#x6e;&#x2d;&#99;&#x6f;&#x6e;&#x74;&#x65;&#110;&#x74;&#x40;&#x34;&#x2e;&#50;&#x2e;&#51;">&#x68;&#x65;&#x78;&#111;&#45;&#x67;&#101;&#x6e;&#x65;&#x72;&#97;&#116;&#x6f;&#114;&#x2d;&#x6a;&#115;&#111;&#x6e;&#x2d;&#99;&#x6f;&#x6e;&#x74;&#x65;&#110;&#x74;&#x40;&#x34;&#x2e;&#50;&#x2e;&#51;</a>各种npm后hexo倒是不报错了，但打开后模块仍然显示缺失</p>
+<p>根据市面上搜索的各种 npm install,npm i hexo-generator-json-content –save,npm install <a href="mailto:&#x68;&#x65;&#120;&#111;&#45;&#103;&#x65;&#110;&#x65;&#x72;&#97;&#116;&#x6f;&#x72;&#x2d;&#x6a;&#x73;&#111;&#110;&#x2d;&#x63;&#111;&#110;&#x74;&#x65;&#x6e;&#x74;&#x40;&#x34;&#46;&#x32;&#x2e;&#51;">&#x68;&#x65;&#120;&#111;&#45;&#103;&#x65;&#110;&#x65;&#x72;&#97;&#116;&#x6f;&#x72;&#x2d;&#x6a;&#x73;&#111;&#110;&#x2d;&#x63;&#111;&#110;&#x74;&#x65;&#x6e;&#x74;&#x40;&#x34;&#46;&#x32;&#x2e;&#51;</a>各种npm后hexo倒是不报错了，但打开后模块仍然显示缺失</p>
 <p>于是又各种尝试修改hexo根目录下的_config.yml文件，但仍然不行，hexo不报错但模块仍然缺失，最后没办法试着修改yilia里的_config.yml文件，在文件后面添加报错图中的(3.在根目录_config.yml里添加如下配置的内容)后居然好了，但修改完毕再次打开的时候我又试着把它删了却不报错，所以说这到底是什么玩意导致的模块缺失(骂骂咧咧)。</p>
 
       
@@ -188,7 +197,7 @@
             <span class="tooltip-content">
               <span class="tooltip-text">
                 <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>我很可爱,请给我钱。<i class="icon icon-quo-right"></i></p>
+                  <p class="reward-p"><i class="icon icon-quo-left"></i> 我很可爱,请给我钱。<i class="icon icon-quo-right"></i></p>
                   <div class="reward-box">
                     
                     <div class="reward-box-item">
@@ -329,6 +338,36 @@
   
 
 
+  
+      <section id="comments" class="comments">
+        <style>
+          .comments{margin:30px;padding:10px;background:#fff}
+          @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
+        </style>
+        <div id="vcomment" class="comment"></div> 
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+var notify = 'false' == true ? true : false;
+var verify = 'false' == true ? true : false;
+    window.onload = function() {
+        new Valine({
+            el: '.comment',
+            notify: notify,
+            verify: verify,
+            app_id: "cjUmkUlUfAf7aPE66W8QeRHm-gzGzoHsz",
+            app_key: "QwtxxOkbbyJlXLUY1asFI4rp",
+            placeholder: "在此留言",
+            avatar:"repo"
+        });
+    }
+</script>
+
+    </section>
+  
+
+
+
           </div>
         </div>
       </div>
@@ -338,14 +377,12 @@
     	<div class="footer-left">
     		&copy; 2022 madoka
     	</div>
-      	<div class="footer-right">
-      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
-      	</div>
     </div>
   </div>
 </footer>
 <!--页面点击小红心-->
 <script type="text/javascript" src="/love.js"></script>
+
 
     </div>
     <script>
@@ -360,7 +397,7 @@
 		toc_hide_index: true,
 		root: "/",
 		innerArchive: true,
-		showTags: false
+		showTags: true
 	}
 </script>
 
