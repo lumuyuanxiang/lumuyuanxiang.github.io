@@ -166,15 +166,15 @@
   
 
         
-        <a href="/2022/10/15/hexo%E5%8D%9A%E5%AE%A2yilia%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0%E7%BC%BA%E5%A4%B1/" class="archive-article-date">
-  	<time datetime="2022-10-15T05:18:08.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-10-15</time>
-</a>
-
+        
 	<!-- 不蒜子统计 -->
 	<span id="busuanzi_container_page_pv" style='display:none' class="archive-article-date">
 				<i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
 	</span>
 
+<a href="/2022/10/15/hexo%E5%8D%9A%E5%AE%A2yilia%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0%E7%BC%BA%E5%A4%B1/" class="archive-article-date">
+  	<time datetime="2022-10-15T05:18:08.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-10-15</time>
+</a>
         
       </header>
     
@@ -182,7 +182,7 @@
       
         <h1 id="算是解决办法？-待定-作用在hexo不报错但模块仍然缺失的情况下"><a href="#算是解决办法？-待定-作用在hexo不报错但模块仍然缺失的情况下" class="headerlink" title="算是解决办法？(待定)(作用在hexo不报错但模块仍然缺失的情况下)"></a>算是解决办法？(待定)(作用在hexo不报错但模块仍然缺失的情况下)</h1><p>在修改博客文章的时候不知道删了什么或者是修改了什么导致所有文章模块缺失，如下图</p>
 <p>[报错图]<br>(<a target="_blank" rel="noopener" href="https://img-blog.csdnimg.cn/img_convert/be5531bca80d972de5ae21476e4c3897.png">https://img-blog.csdnimg.cn/img_convert/be5531bca80d972de5ae21476e4c3897.png</a>)</p>
-<p>根据市面上搜索的各种 npm install,npm i hexo-generator-json-content –save,npm install <a href="mailto:&#x68;&#x65;&#120;&#111;&#45;&#103;&#x65;&#110;&#x65;&#x72;&#97;&#116;&#x6f;&#x72;&#x2d;&#x6a;&#x73;&#111;&#110;&#x2d;&#x63;&#111;&#110;&#x74;&#x65;&#x6e;&#x74;&#x40;&#x34;&#46;&#x32;&#x2e;&#51;">&#x68;&#x65;&#120;&#111;&#45;&#103;&#x65;&#110;&#x65;&#x72;&#97;&#116;&#x6f;&#x72;&#x2d;&#x6a;&#x73;&#111;&#110;&#x2d;&#x63;&#111;&#110;&#x74;&#x65;&#x6e;&#x74;&#x40;&#x34;&#46;&#x32;&#x2e;&#51;</a>各种npm后hexo倒是不报错了，但打开后模块仍然显示缺失</p>
+<p>根据市面上搜索的各种 npm install,npm i hexo-generator-json-content –save,npm install <a href="mailto:&#x68;&#x65;&#x78;&#111;&#45;&#103;&#101;&#x6e;&#x65;&#114;&#x61;&#116;&#111;&#x72;&#x2d;&#106;&#115;&#x6f;&#x6e;&#x2d;&#99;&#x6f;&#x6e;&#116;&#101;&#x6e;&#x74;&#64;&#x34;&#x2e;&#x32;&#46;&#x33;">&#x68;&#x65;&#x78;&#111;&#45;&#103;&#101;&#x6e;&#x65;&#114;&#x61;&#116;&#111;&#x72;&#x2d;&#106;&#115;&#x6f;&#x6e;&#x2d;&#99;&#x6f;&#x6e;&#116;&#101;&#x6e;&#x74;&#64;&#x34;&#x2e;&#x32;&#46;&#x33;</a>各种npm后hexo倒是不报错了，但打开后模块仍然显示缺失</p>
 <p>于是又各种尝试修改hexo根目录下的_config.yml文件，但仍然不行，hexo不报错但模块仍然缺失，最后没办法试着修改yilia里的_config.yml文件，在文件后面添加报错图中的(3.在根目录_config.yml里添加如下配置的内容)后居然好了，但修改完毕再次打开的时候我又试着把它删了却不报错，所以说这到底是什么玩意导致的模块缺失(骂骂咧咧)。</p>
 
       
@@ -379,6 +379,17 @@ var verify = 'false' == true ? true : false;
     	</div>
     </div>
   </div>
+  
+    <!-- 不蒜子统计 -->
+    <span id="busuanzi_container_site_pv">
+            本站总访问量<span id="busuanzi_value_site_pv"></span>次
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+            本站访客数<span id="busuanzi_value_site_uv"></span>人
+    </span>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 </footer>
 <!--页面点击小红心-->
 <script type="text/javascript" src="/love.js"></script>
